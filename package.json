@@ -13,6 +13,9 @@
     "eslint": ">= 5"
   },
   "dependencies": {
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/eslint-config-standard": "^3.0.5",
+    "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^3.1.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
