@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   rules: {
     semi: [2, 'never'],
     'no-console': 'off',
