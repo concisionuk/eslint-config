@@ -6,11 +6,11 @@ module.exports = {
   },
   plugins: ['vue'],
   extends: [
-    './rules/default.js',
     'plugin:vue/recommended',
     'eslint:recommended',
     'plugin:prettier/recommended',
-    '@vue/standard'
+    '@vue/standard',
+    './rules/default.js'
   ],
   parserOptions: {
     parser: 'babel-eslint',
