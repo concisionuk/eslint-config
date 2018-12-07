@@ -12,6 +12,15 @@ module.exports = {
         singleQuote: true,
         trailingComma: 'es5'
       }
-    ]
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "always",
+      {
+        "singleValue": false,
+        "objectsInArrays": false,
+        "arraysInArrays": false
+      }
+    ],
   }
 };
