@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-concision",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": {
     "name": "Daniel Roe",
     "email": "daniel@concision.co.uk"
@@ -13,10 +13,10 @@
     "eslint": ">= 5"
   },
   "dependencies": {
-    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.2.1",
     "@vue/eslint-config-standard": "^3.0.5",
     "babel-eslint": "^10.0.1",
-    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-prettier": "^3.3.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-prettier": "^3.0.0",
