@@ -6,7 +6,7 @@ module.exports = {
     'space-before-function-paren': 0,
     'comma-dangle': ['error', 'always-multiline'],
     'prettier/prettier': [
-      'error',
+      'warning',
       {
         semi: false,
         singleQuote: true,
