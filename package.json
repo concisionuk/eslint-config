@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-concision",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": {
     "name": "Daniel Roe",
     "email": "daniel@concision.co.uk"
@@ -12,14 +12,18 @@
   "peerDependencies": {
     "eslint": ">= 5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:concisionuk/eslint-config.git"
+  },
   "dependencies": {
-    "@vue/cli-plugin-eslint": "^3.9.2",
-    "@vue/eslint-config-standard": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.2",
-    "eslint-config-prettier": "^3.6.0",
+    "eslint-config-prettier": "^6.5.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.2.1",
+    "eslint-loader": "^3.0.2",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-vue": "^4.7.1"
+    "eslint-plugin-vue": "^6.0.1"
   }
 }
